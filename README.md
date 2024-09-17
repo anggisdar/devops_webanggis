@@ -17,3 +17,13 @@ npm install
 ```
 npm run start
 ```
+
+# Proyek Web Server
+
+## Deskripsi
+Ini adalah proyek untuk mengonfigurasi NGINX dan Apache2 sebagai reverse proxy server dengan pengaturan rate limiting dan endpoint khusus.
+
+## Kriteria Penilaian
+1. **Port NGINX:** Ubah dari port 80 ke 3000.
+2. **Rate Limiting:** Batasi 6 permintaan per menit (1 permintaan setiap 10 detik).
+3. **Endpoint `/me`:** Kembalikan teks `dicoding_anggis`.
