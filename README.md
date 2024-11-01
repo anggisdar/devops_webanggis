@@ -6,7 +6,7 @@ Ini adalah proyek untuk mengonfigurasi NGINX dan Apache2 sebagai reverse proxy s
 ## Kriteria Penilaian
 1. **Port NGINX:** Ubah dari port 80 ke 3000.
 2. **Rate Limiting:** Batasi 6 permintaan per menit (1 permintaan setiap 10 detik).
-3. **Endpoint `/me`:** Kembalikan teks `dicoding_anggis`.
+3. **Endpoint `/me`:** Kembalikan teks `dicoding_name`.
 4. **Apache2:** Terapkan pengaturan yang sama dengan alias.
 
 # A387-Jarkom-Labs
